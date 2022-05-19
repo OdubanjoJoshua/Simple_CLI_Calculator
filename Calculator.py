@@ -17,3 +17,16 @@ multiply = int(first_number) * int(second_number)
 divide = int(first_number) / int(second_number)
 add = int(first_number) + int(second_number)
 subtract = int(first_number) - int(second_number)
+
+# A conditional statement to select the various options gven
+if arithmetic_op == "Multiply":
+    print(" >>> " + str(first_number) + " * " + str(second_number) + " = " + format(multiply))
+elif arithmetic_op == "Divide":
+    print(" >>> " + str(first_number) + " / " + str(second_number) + " = " + format(divide))
+elif arithmetic_op == "Add":
+    print(" >>> " + str(first_number) + " + " + str(second_number) + " = " + format(add))
+elif arithmetic_op == "Subtract":
+    print(" >>> " + str(first_number) + " - " + str(second_number) + " = " + format(subtract))
+else:
+    print("""--- Not valid!!! ---
+--- Pick from the options given ---""")
