@@ -11,3 +11,9 @@ Pick one of the above options: """)
 # Even though the user doesn't capitalize it, this makes the option capitalize so python understands
 arithmetic_op = arithmetic_op.capitalize()
 print(arithmetic_op.capitalize())
+
+# Assigning values based on the operator string been chosen
+multiply = int(first_number) * int(second_number)
+divide = int(first_number) / int(second_number)
+add = int(first_number) + int(second_number)
+subtract = int(first_number) - int(second_number)
